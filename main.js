@@ -2,9 +2,11 @@ function dropDownMenu(){
     var dm = document.getElementById('dropDownMenu');
     if(dm.className == "nav-list"){
         dm.className += " responsive";
-    }
-    else{
+        document.getElementById('info-content').style.paddingTop = "45vh";
+      }
+      else{
         dm.className = "nav-list"
+        document.getElementById('info-content').style.paddingTop = "20%";
     }
 }
 
