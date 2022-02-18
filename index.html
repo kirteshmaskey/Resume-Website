@@ -7,25 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
+    <script src="display.js"></script>
     <title>Kirtesh Maskey</title>
 </head>
 
 <body>
     <div class="content">
-        <img src="bg-img.jpg" alt="" class="bg-img">
+        <img src="Images/bg-img.jpg" alt="" class="bg-img">
     </div>
 
     <div class="navigation">
         <header>
             <nav>
                 <ul class="nav-list" id="dropDownMenu">
-                    <img src="profile-pic.png" alt="" class="profile-pic">
+                    <img src="Images/profile-pic.png" alt="" class="profile-pic">
                     <li class="drop-down"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#aboutMe">About Me</a></li>
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#certificate">Certificate</a></li>
-                    <li><a href="#contactMe">Contact Me</a></li>
+                    <li><a href="javascript:displayHome()">Home</a></li>
+                    <li><a href="javascript:displayAboutMe()">About Me</a></li>
+                    <li><a href="javascript:displayResume()">Resume</a></li>
+                    <li><a href="javascript:displayCertificate()">Certificate</a></li>
+                    <li><a href="javascript:displayContactMe()">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,9 +35,55 @@
     <div>
         <div class="info-content" id="info-content">
             <p id="name" class="p-cont">Kirtesh Maskey</p>
-            <p class="intro">I'm Kirtesh Maskey an undergraduate student pursuing my B. Tech degree in the field of
-                Computer Techlonogy</p>
+            <p class="intro">I'm Kirtesh Maskey an undergraduate student pursuing my B. Tech degree in the field of Computer Techlonogy</p>
             <p class="intro">For more info <a href="#" class="more-info"> click here</a></p>
+        </div>
+
+        <div id="About-me" class="align-display">
+            <p class="align-content">Hello, I'm Kirtesh Maskey an undergraduate student pursuing my B. Tech degree in the field of Computer Techlonogy</p>
+            <p>Interested in the field of web development</p>
+            <p>Programming Language:</p>
+                <ul>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            
+        </div>
+
+        <div id="Resume" class="align-display">
+            <p class="align-content"><a href="https://drive.google.com/file/d/1eE4myH5a8eotJuqOx_QuY7HZk-PDlePf/view?usp=sharing" target="_blank" class="link">Click here</a> to view Resume</p>
+        </div>
+
+        <div id="Certificate" class="align-display">
+            <p class="align-content">
+                <p class="large-text">Certificates:</p>
+                <ul>
+                    <li>Problem Solving Through Programming in C - NPTEL <a href="https://drive.google.com/file/d/1qKYf_1Kdk9DJ3EGZfUmR8CUQ-UNFsy-u/view?usp=sharing" class="link" target="_blank">View</a></li>
+                    <li>Master C++ Programming From Beginner to Advanced <a href="https://drive.google.com/file/d/1R4-femkS6G6BcksSTREa_GlQR5jS19VP/view?usp=sharing" class="link" target="_blank">View</a></li>
+                    <li>SnackDown 2021 <a href="https://drive.google.com/file/d/1bkhHBWSF-mwRtJTXEAvuOIubvfPg8_pZ/view?usp=sharing" class="link" target="_blank">View</a></li>
+                    <li>CodeKaze November 2021 <a href="https://drive.google.com/file/d/1sg0QSRAiYT_xnpfcH_Tok8BVaWZQy5BJ/view?usp=sharing" class="link" target="_blank">View</a></li>
+                    <li>Flipkart Grid 3.0 <a href="https://drive.google.com/file/d/1vK-QRzzn2lsrojPij0yjr8jwt4ZRLjDw/view?usp=sharing" class="link" target="_blank">View</a></li>
+                </ul> </p>
+        </div>
+
+        <div id="Contact-me" class="align-display">
+            <p class="align-content">
+                <p>Name : Kirtesh Maskey</p>
+                <p>Address : At. Siroli Po. Mahagaon</p>
+                <p>Contact No. : 9309947413</p>
+                <p>Email : kirteshmaskey@gmail.com</p>
+                <br>
+                <p>Connect me on :</p>
+                <p>
+                    <a href="https://www.linkedin.com/in/kirteshmaskey" target="_blank"><img src="Images/Logo/LinkedinLogo.png" alt="LinkedIn" class="social-logo"></a>
+                    <a href="https://www.facebook.com/www.Kirteshmaske123" target="_blank"><img src="Images/Logo/FacebookLogo.png" alt="Facebook" class="social-logo"></a>
+                    <a href="https://www.instagram.com/kirtesh_maskey/" target="_blank"><img src="Images/Logo/InstagramLogo.png" alt="Instagram" class="social-logo"></a>
+                </p>
+            </p>
         </div>
     </div>
 </body>
