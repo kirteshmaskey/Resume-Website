@@ -38,8 +38,9 @@ a{
 nav ul li:hover{
     background-color: rgb(94, 145, 189);
 }
+
 a:hover{
-    color: rgb(197, 240, 9);
+    color: rgb(56, 128, 223);
     text-shadow: 1px 1px;
 }
 
@@ -78,7 +79,7 @@ p.p-cont{
     overflow: hidden;
     display: inline-block;
     white-space: nowrap;
-    padding: 25% 0% 0% 30%;
+    padding: 20% 0% 0% 30%;
     /* text-align: center; */
     letter-spacing: 1px;
 } 
@@ -90,8 +91,8 @@ p#name{
 
 p.intro{
     text-align: center;
-    padding: 0 10% 0 17%;
-    font-size: 1em;
+    padding: 0 10% 0 12%;
+    font-size: 1.2em;
 }
 
 p a.more-info{
@@ -117,7 +118,7 @@ p.large-text{
     font-size: 1.8em;
 }
 
-.link{
+ul li a.link{
     color: rgb(38, 114, 114);
     padding: 0 0 0 12px;
 }
@@ -132,7 +133,10 @@ img.social-logo{
     0%{
         width: 0%;
     }
-    50%{
+    7%{
+        width: 0%;
+    }
+    60%{
         width: 70%;
     }
     100%{
